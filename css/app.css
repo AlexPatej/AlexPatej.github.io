@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Montserrat-Thin";
+    src: url(../fonts/Montserrat-Thin.otf) format("opentype");
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Montserrat-Thin";
+}
+
+h1 {
+  text-align: center;
+  font-size: 7em;
+}
+
+h2 {
+  font-size: 5em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right; 
+}
+
+.container {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column {
+  display: inline-block;
+  width: 45%;
+}
+
+.skill-row {
+  font-size: 1.5em;
+  padding: 1em;
+}
+
+.point {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.dot-white {
+  width: 0.6em;
+  height: 0.6em;
+  border-radius: 50%;
+  background-color: white;
+  border-color: white;
+  border-width: 0.07em;
+  border-style: solid;
+  display: inline-block;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.dot-black {
+  width: 0.6em;
+  height: 0.6em;
+  border-radius: 50%;
+  border-color: white;
+  border-width: 0.07em;
+  border-style: solid;
+  display: inline-block;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.dot-container {
+  border-style: solid;
+  border-color: white;
+  border-width: 0.07em;
+}
