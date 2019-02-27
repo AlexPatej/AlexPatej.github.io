@@ -4,9 +4,30 @@
 }
 
 body {
-  background-color: black;
-  color: white;
+  background-color: #0b1219;
+  color: #e6e6ea;
   font-family: "Montserrat-Thin";
+  font-size: 1.5em;
+}
+
+hr {
+  color: #e6e6ea;
+}
+
+a:link {
+ color: #e6e6ea;
+}
+
+a:visited {
+ color: #e6e6ea;
+}
+
+a:hover {
+ color: #e6e6ea;
+}
+
+a:active {
+ color: #e6e6ea;
 }
 
 h1 {
@@ -18,54 +39,28 @@ h2 {
   font-size: 5em;
 }
 
-p {
-  font-size: 1.5em;
-}
 
-iframe {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right; 
-}
-
-.container {
-  width: 1080px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.column {
-  display: inline-block;
-  width: 45%;
-}
-
-.skill-row {
-  font-size: 1.5em;
-  padding: 1em;
+footer {
+  color: #cccccc;
+  text-align: center;
 }
 
 .point {
+  margin-top: 0.8em;
+  margin-bottom: 0.2em;
+  font-size: 1.2em;
   font-weight: bolder;
-  text-decoration: underline;
 }
 
 .dot-white {
   width: 0.6em;
   height: 0.6em;
   border-radius: 50%;
-  background-color: white;
-  border-color: white;
+  background-color: #e6e6ea;
+  border-color: #e6e6ea;
   border-width: 0.07em;
   border-style: solid;
-  display: inline-block;
+  display: inline-flex;
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
@@ -74,16 +69,39 @@ iframe {
   width: 0.6em;
   height: 0.6em;
   border-radius: 50%;
-  border-color: white;
+  border-color: #e6e6ea;
   border-width: 0.07em;
   border-style: solid;
-  display: inline-block;
+  display: inline-flex;
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
 
 .dot-container {
   border-style: solid;
-  border-color: white;
-  border-width: 0.07em;
+  border-color: #e6e6ea;
+  border-width: 1px;
+  min-width: 216px;
+  min-height: 29px;
+}
+
+html, body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: calc(100% - 80px);;
+}
+
+#main {
+  overflow:auto;
+  padding-bottom:80px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+  position: relative;
+  margin-top: 0px; /* negative value of footer height */
+  height: 80px;
+  clear:both;
+  padding-top:20px;
 }
